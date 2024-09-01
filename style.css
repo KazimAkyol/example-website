@@ -10,11 +10,14 @@ body{
 
 header{
     height: 100px;
-    /* background: gray; */
+    background: blueviolet;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
 
+.logo{
+    border-radius: 25px;
 }
 
 ul{
@@ -95,6 +98,10 @@ main p{
     border-radius: 50px;
 }
 
+.cta:hover{
+    cursor: pointer;
+}
+
 .signup-btn{
     padding: 10px 20px;
     background: #c4c4f7;
@@ -104,5 +111,4 @@ main p{
     font-weight: 700;
     text-transform: uppercase;
     border-radius: 50px;
-
 }
